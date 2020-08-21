@@ -20,6 +20,9 @@
     "ext-soap": "*"
   },
   "extra": {
+    "branch-alias": {
+      "dev-master": "1.0"
+    },
     "laravel": {
       "providers": [
         "KumsalAgency\\NetGSM\\NetGSMServiceProvider"
