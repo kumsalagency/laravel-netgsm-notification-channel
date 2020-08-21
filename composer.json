@@ -1,0 +1,36 @@
+{
+  "name": "kumsalajans/netgsm",
+  "description": "NETGSM Broadcasting Driver",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kumsal Ajans",
+      "email": "developer@kumsalajans.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "KumsalAgency\\NetGSM\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.2.0",
+    "illuminate/notifications": "~5.8.0|^6.0|^7.0",
+    "ext-soap": "*"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0-dev"
+    },
+    "laravel": {
+      "providers": [
+        "KumsalAgency\\NetGSM\\NetGSMServiceProvider"
+      ],
+      "aliases": {
+        "Nova": "KumsalAgency\\NetGSM\\Facades\\NetGSM"
+      }
+    }
+  },
+  "prefer-stable": true
+}
