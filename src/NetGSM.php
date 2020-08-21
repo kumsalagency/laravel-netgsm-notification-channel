@@ -11,7 +11,7 @@ class NetGSM
     /**
      * @var \SoapClient
      */
-    public \SoapClient $client;
+    public $client;
 
     /**
      * NetGSM constructor.
