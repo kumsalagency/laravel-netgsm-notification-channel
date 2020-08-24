@@ -27,7 +27,7 @@
         "KumsalAgency\\NetGSM\\NetGSMServiceProvider"
       ],
       "aliases": {
-        "Nova": "KumsalAgency\\NetGSM\\Facades\\NetGSM"
+        "NetGSM": "KumsalAgency\\NetGSM\\Facades\\NetGSM"
       }
     }
   },
